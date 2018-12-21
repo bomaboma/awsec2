@@ -1,0 +1,10 @@
+- ec2:
+    key_name: Jesus
+    instance_type: t2.micro
+    region: us-east-1
+    image: ami-009d6802948d06e52
+    wait: yes
+#   group: webserver
+    count: 1
+    vpc_subnet_id: subnet-5ed82d15
+    assign_public_ip: yes
